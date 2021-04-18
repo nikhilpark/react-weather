@@ -1,0 +1,85 @@
+
+*{
+    margin:0;
+    color:white;
+}
+
+
+
+ #main-div{
+ 
+    border:0.0001px solid black;
+    height:100vh;
+    background-image: url('../../asssets/desktop/bg-day.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+ 
+
+
+#quote-cont{
+    margin: 10vh 10vw;
+}
+
+#quote-cont h3{
+    margin-left:13vw;
+    font-family: 'Cuprum', sans-serif;
+
+}
+#quote-cont blockquote{
+    margin:0;
+    width:23vw;
+    font-size: 1.3rem;;
+    font-family: 'Courgette', cursive;
+
+}
+#quote-cont blockquote::first-letter{
+    font-size: 2rem;
+}
+#greeting-cont{
+    margin:20vh 0 0 10vw;
+}
+
+#greeting-cont span{
+    font-size:1.5rem;
+}
+
+#temp-cont{
+    margin:2vh 0 0 10vw;
+}
+#temp-cont span{
+    font-size: 5rem;
+}
+
+#loc-cont {
+    margin:2vh 0 0 10vw;
+}
+
+#loc-cont span{
+    font-size: 1.2rem;
+}
+
+#ch-loc{
+    margin :1vh 0 0 20vw;
+
+}
+
+#ch-loc span:hover{
+
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+#more-cont{
+
+    width:fit-content;
+    margin-left:80vw;
+}
+#more-cont button{
+    font-size: 1.5rem;
+    background-color: white;
+    color:black;
+    width:10vw;
+    border-radius: 45px;
+    padding:10px;
+}
